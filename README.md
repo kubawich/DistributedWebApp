@@ -73,7 +73,7 @@ Just send pull request and we'll see what to do with it.
 
 * **Jakub Wichlinski** - *PM* - [Jakub Wichlinski](https://jakub.wichlinski.pl/)
 
-dopisz się Maciej tu
+* **Maciej Wawrzyniak** - *PM* 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
