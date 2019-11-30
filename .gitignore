@@ -997,7 +997,6 @@ yarn-error.log*
 *.suo
 *.ntvs*
 *.njsproj
-*.sln
 *.sw*
 DistributedWebApp/Builds/netcoreapp3.1/appsettings.Development.json
 DistributedWebApp/Builds/netcoreapp3.1/appsettings.json
