@@ -998,8 +998,5 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sw*
-DistributedWebApp/Builds/netcoreapp3.1/appsettings.Development.json
-DistributedWebApp/Builds/netcoreapp3.1/appsettings.json
-DistributedWebApp/Builds/netcoreapp3.1/DistributedWebAppAPI.deps.json
-DistributedWebApp/Builds/netcoreapp3.1/DistributedWebAppAPI.dll
-DistributedWebApp/Builds/netcoreapp3.1/DistributedWebAppAPI.exe
+*.dll
+*.exe
