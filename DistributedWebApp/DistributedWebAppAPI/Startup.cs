@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using Serilog;
 using Microsoft.Extensions.Logging;
 
 namespace DistributedWebAppAPI
@@ -37,6 +39,8 @@ namespace DistributedWebAppAPI
             }
 
             app.UseHttpsRedirection();
+          
+            app.UseSerilogRequestLogging();
 
             app.UseRouting();
 
