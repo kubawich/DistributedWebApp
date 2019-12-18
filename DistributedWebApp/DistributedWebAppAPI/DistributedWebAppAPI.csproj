@@ -9,6 +9,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>..\DistributedWebApp\DistributedWebApp\Builds</OutputPath>
     <NoWarn>1701;1702;1591</NoWarn>
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -40,8 +41,5 @@
     <TypeScriptSourceRoot />
   </PropertyGroup>
 
-  <PropertyGroup>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-  </PropertyGroup>
 
 </Project>
