@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>C:\Users\Kuba\Desktop\Projekty\PROJEKT_GŁÓWNY\DistributedWebApp\Builds\</OutputPath>
+    <OutputPath>..\DistributedWebApp\Builds\</OutputPath>
     <OutputPath>..\DistributedWebApp\DistributedWebApp\Builds</OutputPath>
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
@@ -23,6 +23,13 @@
     <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
     <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Models\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Tools\" />
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -16,7 +16,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="Domain\" />
     <Folder Include="Models\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Tools\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
