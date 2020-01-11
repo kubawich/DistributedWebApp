@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Serilog;
+using Microsoft.Extensions.Logging;
 
 namespace DistributedWebAppAPI
 {
@@ -38,7 +39,9 @@ namespace DistributedWebAppAPI
                 app.UseDeveloperExceptionPage();
             }
             app.UseHttpsRedirection();
+          
             app.UseSerilogRequestLogging();
+
             app.UseRouting();
 
             app.UseAuthorization();
