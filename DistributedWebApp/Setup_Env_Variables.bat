@@ -1,0 +1,5 @@
+setx db_Username
+setx db_Password
+setx db_Address
+setx db_DatabaseName
+setx api_PrivateKey

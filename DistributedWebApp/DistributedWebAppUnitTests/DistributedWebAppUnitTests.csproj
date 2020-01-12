@@ -23,4 +23,13 @@
     <ProjectReference Include="..\DistributedWebAppAPI\DistributedWebAppAPI.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MessagingTests\" />
+    <Folder Include="DashboardsTests\" />
+    <Folder Include="AdministartionTests\" />
+    <Folder Include="APITests\" />
+    <Folder Include="OrdersTests\" />
+    <Folder Include="UsersTests\" />
+  </ItemGroup>
+
 </Project>
